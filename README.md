@@ -15,8 +15,8 @@ Example `config.h`:
 #define CONFIG_H
 
 // WiFi credentials
-#define C_SSID       "[your ssid]"
-#define C_SSPW       "[your password]"
+#define C_SSID       //"SSID"
+#define C_SSPW       //"SSPW"
 
 // MQTT client settings
 #define C_CLIENT     "HUB-esp8266"
@@ -28,18 +28,16 @@ Example `config.h`:
 #define C_HASH       "34198f19ea955f43b29c557796064064"
 
 // IP config
-// Write your computer's IP here [TO BE CHANGED]
-#define C_IP_1       192
-#define C_IP_2       168
-#define C_IP_3       1
-#define C_IP_4       6
+#define C_IP_1       //IP
+#define C_IP_2       //IP
+#define C_IP_3       //IP
+#define C_IP_4       //IP
 
 // Gateway config
-// Write your gateway IP here [TO BE CHANGED]
-#define GATEWAY_1    192
-#define GATEWAY_2    168
-#define GATEWAY_3    1
-#define GATEWAY_4    1
+#define GATEWAY_1    //G_IP
+#define GATEWAY_2    //G_IP
+#define GATEWAY_3    //G_IP
+#define GATEWAY_4    //G_IP
 
 #define SUBNET_1     255
 #define SUBNET_2     255
